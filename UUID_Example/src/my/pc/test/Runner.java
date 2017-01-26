@@ -94,6 +94,7 @@ public class Runner {
 	public static void Hello(){
 		
 		System.out.println("Hello World");
+		System.out.println("Next Hello World");
 	}
 	
 	
