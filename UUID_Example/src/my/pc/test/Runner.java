@@ -91,5 +91,12 @@ public class Runner {
 	    return result.toString();
 	  }
 	
+	public static void Hello(){
+		
+		System.out.println("Hello World");
+	}
+	
+	
+	
 	
 }
