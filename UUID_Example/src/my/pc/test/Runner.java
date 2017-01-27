@@ -13,41 +13,41 @@ public class Runner {
 	
 	public static void main (String args[]) throws NoSuchAlgorithmException, InterruptedException{
 		
-		//
+		
 		//                             *****************************************UUID-lerle islemek ucun bir exampledi*****************************************
 		//
 		
-//		UUID idOne = UUID.randomUUID();
-//		UUID idTwo = UUID.randomUUID();
-//		
-//		System.out.println(idOne + "\n" + idTwo+"\n");
-//		
-//		SecureRandom prng = SecureRandom.getInstance("SHA1PRNG");
-//
-//		String randomNum=new Integer(prng.nextInt()).toString();
-//		
-//		MessageDigest sha= MessageDigest.getInstance("SHA-1");
-//		byte[] result =sha.digest(randomNum.getBytes());
-//		
-//		System.out.println("Random number : "+randomNum+"\n");
-//		for(int i=0; i <10; i++){
-//		System.out.println("Random number example: "+prng.nextGaussian());
-//		}
-//		System.out.println("\n"+"Message digest : "+hexEncode(result)+"\n");
-//		
-//		
-//		
-//		
-//		 for (int idx=0; idx<10; ++idx){
-//		      UID userId = new UID();
-//		      System.out.println("User Id: " + userId);
-//		    }
+		UUID idOne = UUID.randomUUID();
+		UUID idTwo = UUID.randomUUID();
 		
-//		 for (Provider p : Security.getProviders()) {
-//			    for (Object o : p.keySet()) {
-//			        System.out.println("Alghoritms : "+o);
-//			    }
-//			}
+		System.out.println(idOne + "\n" + idTwo+"\n");
+		
+		SecureRandom prng = SecureRandom.getInstance("SHA1PRNG");
+
+		String randomNum=new Integer(prng.nextInt()).toString();
+		
+		MessageDigest sha= MessageDigest.getInstance("SHA-1");
+		byte[] result =sha.digest(randomNum.getBytes());
+		
+		System.out.println("Random number : "+randomNum+"\n");
+		for(int i=0; i <10; i++){
+		System.out.println("Random number example: "+prng.nextGaussian());
+		}
+		System.out.println("\n"+"Message digest : "+hexEncode(result)+"\n");
+		
+		
+		
+		
+		 for (int idx=0; idx<10; ++idx){
+		      UID userId = new UID();
+		      System.out.println("User Id: " + userId);
+		    }
+		
+		 for (Provider p : Security.getProviders()) {
+			    for (Object o : p.keySet()) {
+			        System.out.println("Alghoritms : "+o);
+			    }
+			}
 		 
 		//
 		//                          *****************************************Threadlerle iwlemek ucun exampledi*****************************************
